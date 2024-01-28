@@ -4,3 +4,7 @@ language = "ja-JP"
 multilingual = false
 src = "src"
 title = "作って学ぶ正規表現エンジン"
+
+[output.html]
+git-repository-url = "https://github.com/makenowjust/kantan-regex-book"
+edit-url-template = "https://github.com/makenowjust/kantan-regex-book/edit/main/{path}"
