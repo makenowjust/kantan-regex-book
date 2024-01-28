@@ -1,0 +1,6 @@
+[book]
+authors = ["藤浪 大弥 (@makenowjust)"]
+language = "ja-JP"
+multilingual = false
+src = "src"
+title = "作って学ぶ正規表現エンジン"
