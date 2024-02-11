@@ -15,9 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1
+        uses: jontze/action-mdbook@v3
         with:
-          mdbook-version: '0.4.36'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          mdbook-version: "~0.4.37"
       - name: Build
         run: mdbook build
       - name: Upload Pages artifact
