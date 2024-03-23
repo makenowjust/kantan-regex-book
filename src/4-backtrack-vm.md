@@ -134,7 +134,7 @@ irb(main):005*    [:jump, 0],
 irb(main):006>    [:match]]
 => [[:push, 3], [:char, "a"], [:jump, 0], [:match]]
 irb(main):007> KantanRegex::BacktrackVM.exec(program, 'aaa')
-=> 0..3
+=> 0...3
 ```
 
 ここで用いた`program`はパターン`a*`に相当するものなので、正しい結果になっていることが分かります。
